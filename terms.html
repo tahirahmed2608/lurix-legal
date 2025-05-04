@@ -7,6 +7,75 @@
     <link rel="stylesheet" href="styles.css"> <!-- Make sure this points to your CSS -->
 </head>
 <body>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: #111; /* Dark background for the body */
+}
+
+/* Animation background effect */
+.background-animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #ff4b5c, #ffd600, #19c6d1, #36e0a1); /* 4-color gradient */
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+    z-index: -1;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Content box styling */
+.content-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); /* Dark box background */
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffd600; /* Yellow color for headings */
+}
+
+p, ul {
+    color: #fff; /* White text for content */
+}
+
+a {
+    color: #ff4b5c; /* Red color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+        </style>
+
     <div class="background-animation"></div>
 
     <div class="content-container">
