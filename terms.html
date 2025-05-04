@@ -1,9 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms and Conditions</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terms and Conditions | LURIX</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0f0f0f;
+            color: #f0f0f0;
+            line-height: 1.7;
+        }
+
+        header {
+            background: linear-gradient(90deg, red, blue, green, yellow);
+            background-size: 600% 600%;
+            animation: gradientAnimation 10s ease infinite;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        @keyframes gradientAnimation {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            background: #000000a0;
+            padding: 10px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #ffcc00;
+            margin-top: 30px;
+        }
+
+        a {
+            color: #1e90ff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #111;
+            border-top: 1px solid #333;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .buttons a {
+            padding: 10px 18px;
+            background-color: #1e90ff;
+            color: white;
+            border-radius: 6px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .buttons a:hover {
+            background-color: #0c66c2;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -13,9 +97,7 @@
     <section>
         <h2>Introduction</h2>
         <p>These Terms and Conditions govern your use of LURIX | MODERATION, LURIX | MODERATION PREMIUM, LURIX | MUSIC, and LURIX | MUSIC PREMIUM services. By accessing or using our bot, you agree to comply with these terms. If you disagree with any part of these terms, you must not use the bot.</p>
-    </section>
 
-    <section>
         <h2>Use of the Bot</h2>
         <p>By using our bot, you agree that you will not:</p>
         <ul>
@@ -24,47 +106,44 @@
             <li>Impersonate any person or entity while using the bot.</li>
             <li>Engage in any activity that disrupts or damages the bot’s functionality.</li>
         </ul>
-    </section>
 
-    <section>
         <h2>Premium Features</h2>
-        <p>Some features of the bot are available only to users who purchase premium access. These features may include:</p>
+        <p>Some features of the bot are available only to users who purchase premium access. These may include:</p>
         <ul>
             <li>Advanced moderation commands</li>
             <li>Extended music capabilities</li>
             <li>Access to premium support</li>
         </ul>
-        <p>Premium plans are subject to their own terms, and by purchasing a plan, you agree to abide by those terms.</p>
-    </section>
+        <p>By purchasing premium access, you agree to the additional <a href="/premium-terms.html">Premium Terms</a>.</p>
 
-    <section>
         <h2>Account Responsibilities</h2>
-        <p>You are responsible for maintaining the confidentiality of your Discord account and ensuring that no unauthorized users gain access to the bot using your account.</p>
-    </section>
+        <p>You are responsible for maintaining the confidentiality of your Discord account and ensuring no unauthorized users access the bot using your account.</p>
 
-    <section>
         <h2>Limitation of Liability</h2>
         <p>We are not responsible for any direct, indirect, incidental, or consequential damages that may occur while using the bot. You use the bot at your own risk.</p>
-    </section>
 
-    <section>
         <h2>Termination</h2>
         <p>We reserve the right to suspend or terminate your access to the bot at any time, without notice, for violating these Terms and Conditions.</p>
-    </section>
 
-    <section>
         <h2>Changes to Terms</h2>
-        <p>We may update these Terms and Conditions periodically. You will be notified of significant changes, and the latest version will always be posted here.</p>
-    </section>
+        <p>We may update these Terms and Conditions periodically. Significant updates will be announced, and the most recent version will always be available here.</p>
 
-    <section>
         <h2>Governing Law</h2>
-        <p>These Terms and Conditions are governed by the laws of Finland. Any disputes will be resolved in accordance with applicable laws and legal procedures within your jurisdiction.</p>
+        <p>These Terms and Conditions are governed by the laws of Finland. Disputes will be resolved in accordance with applicable legal procedures within your jurisdiction.</p>
+
+        <h2>Contact Us</h2>
+        <p>If you have any questions about these Terms and Conditions, contact us via <a href="mailto:official.lurix@gmail.com">Email</a> or join our <a href="https://discord.gg/nSKcNBWHt7" target="_blank">Support Server</a>.</p>
+
+        <div class="buttons">
+            <a href="/">🏠 Home</a>
+            <a href="/privacy.html">🔒 Privacy Policy</a>
+            <a href="/terms.html">📜 Terms & Conditions</a>
+            <a href="/premium.html">💎 Premium Info</a>
+        </div>
     </section>
 
-    <section>
-        <h2>Contact Us</h2>
-        <p>If you have any questions about these Terms and Conditions, please contact us at <a href="mailto:official.lurix@gmail.com">official.lurix@gmail.com</a>.</p>
-    </section>
+    <footer>
+        &copy; 2025 LURIX. All rights reserved.
+    </footer>
 </body>
 </html>
